@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 
 model = load('CMLmodel.joblib')
 scalerX = load('CMLscalerX.joblib')
-scalerY = load('cMLscalerY.joblib')
+scalerY = load('CMLscalerY.joblib')
 scalerT = load('CMLscalerT.joblib')
 
 def predict(inputs):
