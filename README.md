@@ -95,7 +95,7 @@ The choice of using a Long Short-Term Memory (LSTM) neural network for predictin
 
 LSTM networks, a specialized form of Recurrent Neural Networks (RNNs), are explicitly designed to handle sequences of data. They incorporate memory cells that can maintain information over extended time intervals, effectively addressing the vanishing gradient problem commonly encountered in standard RNNs. This allows LSTMs to retain and utilize historical information, which is crucial in medical datasets where past events and trends significantly influence future outcomes.
 
-#### In the Context of Predicting Crude Rates for ALL, the LSTM Network's Ability to:
+#### In the Context of Predicting Crude Rates for CML, the LSTM Network's Ability to:
 1. **Retain Long-Term Dependencies**: 
    By maintaining cell states over time, LSTM networks can capture and leverage long-term dependencies in the data, such as historical trends in mortality rates, advancements in medical treatments, and changes in diagnostic practices.
 
@@ -108,7 +108,7 @@ LSTM networks, a specialized form of Recurrent Neural Networks (RNNs), are expli
 #### Creating Sequences
 - The data was transformed into sequences to capture the temporal relationships. Each sequence included a set of past observations (e.g., 20 time steps) to predict the next value. This approach ensures that the model can leverage historical information to make accurate predictions about future crude rates.
 
-- These technical advantages of LSTM networks make them particularly well-suited for our objective of predicting crude rates in ALL, where capturing and modeling temporal dynamics is essential for accurate forecasting. Consequently, the LSTM model was chosen as the primary algorithm for this study, ensuring that the temporal aspect of the data is adequately addressed, leading to more reliable and insightful predictions.
+- These technical advantages of LSTM networks make them particularly well-suited for our objective of predicting crude rates in CML, where capturing and modeling temporal dynamics is essential for accurate forecasting. Consequently, the LSTM model was chosen as the primary algorithm for this study, ensuring that the temporal aspect of the data is adequately addressed, leading to more reliable and insightful predictions.
 
 
 ## Model Architecture
@@ -144,7 +144,7 @@ The project includes a Streamlit-based diagnostic tool that allows users to inpu
 
 - Access the tool here: [Chronic Myeloid Leukemia Diagnostic Tool](https://chronic-myeloid-leukemia-lstm.streamlit.app/)
 - ### Example Output
-![Diagnostic Tool Screenshot](ALL_result.png)
+![Diagnostic Tool Screenshot](CML_result.png)
 
 ---
 ## License
