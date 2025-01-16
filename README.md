@@ -31,9 +31,11 @@
 
 ## Introduction
 
-This project focuses on developing advanced predictive analytics for **Chronic Myeloid Leukemia (CML)** by utilizing a **Long Short-Term Memory (LSTM)** neural network. The model is designed to predict two key health metrics: **Crude Mortality Rate** (number of deaths per 100,000 individuals in a given year) and **Survival Rate** (likelihood of survival as a percentage). By leveraging demographic and temporal factors such as **age, sex, ethnicity, race, and year,** the model provides robust insights into health outcomes.
+**Chronic Myeloid Leukemia (CML)** is a hematological malignancy that poses significant challenges to patient outcomes and healthcare systems. This project leverages **Long Short-Term Memory (LSTM)** neural networks to predict crucial health metrics, including **Crude Mortality Rate** (deaths per 100,000 individuals annually) and **Survival Rate** (likelihood of survival).
 
-Additionally, an interactive **diagnostic tool** has been deployed, allowing users to input specific demographic and temporal details to generate predictions. This tool serves as a practical application of the model, aiding researchers and healthcare professionals in assessing trends and disparities in **Chronic Myeloid Leukemia** outcomes. The project emphasizes precision and temporal modeling to support informed decision-making in public health and oncology.
+By analyzing **demographic factors (age, sex, ethnicity, race)** and temporal trends spanning decades, the model generates actionable insights into disease progression and survival disparities. To make these predictions accessible, an **interactive diagnostic tool** has been developed. This tool allows users to input demographic and temporal data, generating real-time predictions for CML outcomes. It serves as a valuable resource for healthcare professionals and researchers, enabling evidence-based decision-making and facilitating the identification of trends and disparities.
+
+This initiative bridges advanced analytics with practical applications, emphasizing precision and usability to support effective interventions in combating **CML**.
 
 ---
 
